@@ -1,4 +1,4 @@
-# GrpcNetCore
+# Grpc.NetCore
 
 gRPC playground
 
