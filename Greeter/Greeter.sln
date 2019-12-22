@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "Producer\Producer.csproj", "{8800EDCE-BDC9-400D-9C1A-B55E57F5D984}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{57C10117-20DB-4A88-8C57-60DEA627A881}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerHttp", "ConsumerHttp\ConsumerHttp.csproj", "{57C10117-20DB-4A88-8C57-60DEA627A882}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProducerUnitTests", "ProducerUnitTests\ProducerUnitTests.csproj", "{81466D2C-A3E2-4927-9024-EEAA870D6547}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProducerIntegrationTests", "ProducerIntegrationTests\ProducerIntegrationTests.csproj", "{1DC095DA-27D8-4DFE-B7D4-197D116D59B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{83376DA6-53C2-4F15-8F9F-6B98D05DC9C1}"
+	ProjectSection(SolutionItems) = preProject
+		fig1.png = fig1.png
+		publish-linux-x64.cmd = publish-linux-x64.cmd
+		publish-linux-x64.sh = publish-linux-x64.sh
+		publish-win10-x64.cmd = publish-win10-x64.cmd
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8800EDCE-BDC9-400D-9C1A-B55E57F5D984}.Debug|x64.ActiveCfg = Debug|x64
+		{8800EDCE-BDC9-400D-9C1A-B55E57F5D984}.Debug|x64.Build.0 = Debug|x64
+		{8800EDCE-BDC9-400D-9C1A-B55E57F5D984}.Release|x64.ActiveCfg = Release|x64
+		{8800EDCE-BDC9-400D-9C1A-B55E57F5D984}.Release|x64.Build.0 = Release|x64
+		{57C10117-20DB-4A88-8C57-60DEA627A881}.Debug|x64.ActiveCfg = Debug|x64
+		{57C10117-20DB-4A88-8C57-60DEA627A881}.Debug|x64.Build.0 = Debug|x64
+		{57C10117-20DB-4A88-8C57-60DEA627A881}.Release|x64.ActiveCfg = Release|x64
+		{57C10117-20DB-4A88-8C57-60DEA627A881}.Release|x64.Build.0 = Release|x64
+		{57C10117-20DB-4A88-8C57-60DEA627A882}.Debug|x64.ActiveCfg = Debug|x64
+		{57C10117-20DB-4A88-8C57-60DEA627A882}.Debug|x64.Build.0 = Debug|x64
+		{57C10117-20DB-4A88-8C57-60DEA627A882}.Release|x64.ActiveCfg = Release|x64
+		{57C10117-20DB-4A88-8C57-60DEA627A882}.Release|x64.Build.0 = Release|x64
+		{81466D2C-A3E2-4927-9024-EEAA870D6547}.Debug|x64.ActiveCfg = Debug|x64
+		{81466D2C-A3E2-4927-9024-EEAA870D6547}.Debug|x64.Build.0 = Debug|x64
+		{81466D2C-A3E2-4927-9024-EEAA870D6547}.Release|x64.ActiveCfg = Release|x64
+		{81466D2C-A3E2-4927-9024-EEAA870D6547}.Release|x64.Build.0 = Release|x64
+		{1DC095DA-27D8-4DFE-B7D4-197D116D59B5}.Debug|x64.ActiveCfg = Debug|x64
+		{1DC095DA-27D8-4DFE-B7D4-197D116D59B5}.Debug|x64.Build.0 = Debug|x64
+		{1DC095DA-27D8-4DFE-B7D4-197D116D59B5}.Release|x64.ActiveCfg = Release|x64
+		{1DC095DA-27D8-4DFE-B7D4-197D116D59B5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD29341D-10FB-40CE-B54C-A1180F1E277E}
+	EndGlobalSection
+EndGlobal
